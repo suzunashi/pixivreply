@@ -9,7 +9,7 @@ pixivにおいて自分の作品に頂いたコメントに対する返信の入
 -------------
 1.下のURLをブラウザでブックマークしてください。  
 　（やり方が不明であれば「ブックマークレット」で検索し調べてみてください）
-`javascript:(function(){var%20s=document.createElement("script");s.charset="UTF-8";s.src="https://raw.github.com/suzunashi/pixivreply/master/pixivreply.js";document.body.appendChild(s)})();`
+<pre><code>javascript:(function(){var%20s=document.createElement("script");s.charset="UTF-8";s.src="https://rawgithub.com/suzunashi/pixivreply/master/pixivreply.js";document.body.appendChild(s)})();</code></pre>
 
 2.pixivの作品画面に移動してください。
 
