@@ -7,21 +7,39 @@ pixivにおいて自分の作品に頂いたコメントに対する返信の入
 
 使い方
 -------------
-1.下のURLをブラウザでブックマークしてください。  
-　（やり方が不明であれば「ブックマークレット」で検索し調べてみてください）
-<pre><code>javascript:(function(){var%20s=document.createElement("script");s.charset="UTF-8";s.src="https://rawgithub.com/suzunashi/pixivreply/master/pixivreply.js";document.body.appendChild(s)})();</code></pre>
+【１】下記URLをブラウザでブックマークしてください。
+　　　ブックマークの方法に不明点あれば、[こちら](http://www.lifehacker.jp/2013/04/130402bookmarklet_matome.html)をご参照ください。
 
-2.pixivの作品画面に移動してください。
+```javascript
+javascript:(function(){var%20s=document.createElement("script");s.charset="UTF-8";s.src="https://rawgithub.com/suzunashi/pixivreply/master/pixivreply.js";document.body.appendChild(s)})();
+```
 
-3.「コメントを見る」「もっと見る」ボタンを押し、すべてのコメントを表示してください。
+なおブラウザがFirefoxの場合の、ブックマーク登録の様子は以下のようなイメージです。
 
-4.上記1のステップ登録したブックマークをクリックしてください。 
+![Firefoxでのブックマーク登録イメージ](https://raw.github.com/suzunashi/pixivreply/master/img/firefox_bookmark.jpg "Firefoxでのブックマーク登録イメージ")
 
-5.画面が変更され、コメント毎に返信コメント入力フォームが表示されます。  
-　入力フォームにコメントを入力したら右隣の「返信」ボタンを押してください。
+【２】pixivの作品画面に移動してください。
 
-6.全ての返信が終わったらブラウザの更新ボタンを押してください。  
-　これにより返信したコメントの内容が確認できます。
+![pixivのトップ画面](https://raw.github.com/suzunashi/pixivreply/master/img/pixivtop.jpg "pixivのトップ画面")
+
+【３】 「コメントを見る」「もっと見る」ボタンを押し、すべてのコメントを表示してください。
+
+![コメントを見る](https://raw.github.com/suzunashi/pixivreply/master/img/watch_comment.jpg "コメントを見る")
+
+![もっと見る](https://raw.github.com/suzunashi/pixivreply/master/img/watch_more_comment.jpg "もっと見る")
+
+
+【４】上記【１】で登録したブックマークをクリックしてください。 
+
+![ブックマークの選択](https://raw.github.com/suzunashi/pixivreply/master/img/select_bookmark.jpg "ブックマークの選択")
+
+【５】画面が変更され、コメント毎に返信コメント入力フォームが表示されます。  
+　　　入力フォームにコメントを入力したら右隣の「返信」ボタンを押してください。
+
+![コメント入力画面](https://raw.github.com/suzunashi/pixivreply/master/img/sample_form.jpg "コメント入力画面")
+
+【６】全ての返信が終わったらブラウザの更新ボタンを押してください。  
+　　　これにより返信したコメントの内容が確認できます。
 
 対応ブラウザ
 -------------
