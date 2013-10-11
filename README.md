@@ -1,4 +1,4 @@
-pixivreply
+pixivReply
 ==========
 
 pixivReplyとは
