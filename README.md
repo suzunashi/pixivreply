@@ -8,24 +8,29 @@ pixivにおいて自分の作品に頂いたコメントに対する返信の入
 使い方
 -------------
 ####【１】下記URLをブラウザでブックマークしてください。  
-```javascript
+>```javascript
 javascript:(function(){var%20s=document.createElement("script");s.charset="UTF-8";s.src="https://rawgithub.com/suzunashi/pixivreply/master/pixivreply.js";document.body.appendChild(s)})();
-```  
-ブックマークの方法に不明点あれば、[こちら](http://www.lifehacker.jp/2013/04/130402bookmarklet_matome.html)をご参照ください。  
-なおブラウザがFirefoxの場合の、ブックマーク登録の様子は以下のようなイメージです。  
-![Firefoxでのブックマーク登録イメージ](https://raw.github.com/suzunashi/pixivreply/master/img/firefox_bookmark.jpg "Firefoxでのブックマーク登録イメージ")  
+>```  
+>ブックマークの方法に不明点あれば、[こちら](http://www.lifehacker.jp/2013/04/130402bookmarklet_matome.html)をご参照ください。  
+>なおブラウザがFirefoxの場合の、ブックマーク登録の様子は以下のようなイメージです。  
+>![Firefoxでのブックマーク登録イメージ](https://raw.github.com/suzunashi/pixivreply/master/img/firefox_bookmark.jpg "Firefoxでのブックマーク登録イメージ")  
+
 #### 【２】コメントを投稿したいpixivの作品画面に移動してください。  
-![pixivのトップ画面](https://raw.github.com/suzunashi/pixivreply/master/img/pixivtop.jpg "pixivのトップ画面")  
+>![pixivのトップ画面](https://raw.github.com/suzunashi/pixivreply/master/img/pixivtop.jpg "pixivのトップ画面")  
+
 #### 【３】 「コメントを見る」「もっと見る」ボタンを押し、すべてのコメントを表示してください。  
-![コメントを見る](https://raw.github.com/suzunashi/pixivreply/master/img/watch_comment.jpg "コメントを見る")  
-![もっと見る](https://raw.github.com/suzunashi/pixivreply/master/img/watch_more_comment.jpg "もっと見る")  
+>![コメントを見る](https://raw.github.com/suzunashi/pixivreply/master/img/watch_comment.jpg "コメントを見る")  
+>![もっと見る](https://raw.github.com/suzunashi/pixivreply/master/img/watch_more_comment.jpg "もっと見る")  
+
 #### 【４】上記【１】で登録したブックマークをクリックしてください。   
-![ブックマークの選択](https://raw.github.com/suzunashi/pixivreply/master/img/select_bookmark.jpg "ブックマークの選択")  
+>![ブックマークの選択](https://raw.github.com/suzunashi/pixivreply/master/img/select_bookmark.jpg "ブックマークの選択")  
+
 #### 【５】画面が変更され、コメント毎に返信コメント入力フォームが表示されます。  
-![コメント入力画面](https://raw.github.com/suzunashi/pixivreply/master/img/sample_form.jpg "コメント入力画面")  
-入力フォームにコメントを入力したら右隣の「返信」ボタンを押してください。  
+>![コメント入力画面](https://raw.github.com/suzunashi/pixivreply/master/img/sample_form.jpg "コメント入力画面")  
+>入力フォームにコメントを入力したら右隣の「返信」ボタンを押してください。  
+
 #### 【６】全ての返信が終わったらブラウザの更新ボタンを押してください。  
-これにより返信したコメントの内容が確認できます。  
+>これにより返信したコメントの内容が確認できます。  
 
 対応ブラウザ
 -------------
