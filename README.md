@@ -41,3 +41,8 @@ javascript:(function(){var%20s=document.createElement("script");s.charset="UTF-8
 免責事項
 -------------
 pixivReplyの利用により生じたいかなる損失・損害においても、鈴無蒸(pixivID:278010)は一切の責任を負わないものとします。
+
+Release Note
+-------------
+v.1.01 (2014/02/09) pixivのGUIの仕様変更に対応
+v.1.00 (2013/10/12) 初期バージョン公開
