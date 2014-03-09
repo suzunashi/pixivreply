@@ -1,5 +1,8 @@
 $(".works_info").css("display", "none");
 $(".works_display").after('<div id="replybox" style="margin:10px;"></div>');
+$(document).ajaxSend(function (event, request, settings) {
+    request.setRequestHeader("X-Requested-With", "XMLHttpRequest");
+});
 var target = $("#replybox");
 target.append('<p style="color:#FF0000">※pixivReplyの利用により生じたいかなる損失・損害においても、鈴無蒸(pixivID:278010)は一切の責任を負わないものとします。</p>');
 $($("div.comment").get().reverse()).each(function(i) {
