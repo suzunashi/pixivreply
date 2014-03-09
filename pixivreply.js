@@ -22,7 +22,7 @@ $($("div.comment").get().reverse()).each(function(i) {
 				data: {
 					type:'comment',
 					illust_id:getUrlVars()["illust_id"],
-					autohr_user_id:pixiv.context.userId,
+					author_user_id:pixiv.context.userId,
 					comment:$("#pr_txt" + i).val(),
 					tt:$("#tt").val()
 				},
